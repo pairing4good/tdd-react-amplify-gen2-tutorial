@@ -1,7 +1,8 @@
 # TDD AWS Amplify React App
 
-![Security Checks](https://github.com/pairing4good/tdd-amplify-react-from-template/actions/workflows/codeql-analysis.yml/badge.svg)
-![React Tests](https://github.com/pairing4good/tdd-amplify-react-from-template/actions/workflows/node.js.yml/badge.svg)
+![Security Checks](https://github.com/pairing4good/tdd-react-amplify-gen2-tutorial/actions/workflows/codeql-analysis.yml/badge.svg)
+![React Tests](https://github.com/pairing4good/tdd-react-amplify-gen2-tutorial/actions/workflows/node.js.yml/badge.svg)
+![Cypress Tests](https://github.com/pairing4good/tdd-react-amplify-gen2-tutorial/actions/workflows/cypress.yml/badge.svg)
 
 In this tutorial we will [test drive](https://en.wikipedia.org/wiki/Test-driven_development) a [React](https://reactjs.org/) app which will use [AWS Amplify](https://aws.amazon.com/amplify) to set up authentication and the backend API.
  
@@ -14,9 +15,6 @@ There are a few benefits of starting at the top of the testing pyramid:
 1. Customer Focus: Low level code clearly ties to high level customer value
 1. System Focus: The architecture evolves and expands on green.
 
-
-<details>
-  <summary>Set Up</summary>
   
 ## Set Up
 
@@ -46,10 +44,6 @@ There are a few benefits of starting at the top of the testing pyramid:
 
 - [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) your new repository
 
-</details>
-
-<details>
-  <summary>Big & Visible</summary>
  
 ## Big & Visible Progress
 
@@ -61,10 +55,6 @@ The `README.md` file is the first thing anyone sees when they open this reposito
  1. Description of your product
  1. Install and run instructions
  
-</details>
- 
-<details>
-  <summary>First Test</summary>
 
 ## First Test
 
@@ -306,8 +296,3 @@ export default App;
 - Rerun you Cypress test and it is green
 
 Congratulations, you've successfully made an internal structural change "without changing its external behavior" (Refactoring).
-
-</details>
-
-<details>
-  <summary>NoteForm Test</summary>
