@@ -296,3 +296,5 @@ export default App;
 - Rerun you Cypress test and it is green
 
 Congratulations, you've successfully made an internal structural change "without changing its external behavior" (Refactoring).
+
+[<kbd> Next Step </kbd>](https://github.com/pairing4good/tdd-react-amplify-gen2-tutorial/tree/002-step)
