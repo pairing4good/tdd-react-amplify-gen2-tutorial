@@ -1,3 +1,9 @@
+# TDD AWS Amplify React App - Step 2
+
+![Security Checks](https://github.com/pairing4good/tdd-react-amplify-gen2-tutorial/actions/workflows/codeql-analysis.yml/badge.svg?query=branch%3A002-step+)
+![React Tests](https://github.com/pairing4good/tdd-react-amplify-gen2-tutorial/actions/workflows/node.js.yml/badge.svg?query=branch%3A002-step+)
+![Cypress Tests](https://github.com/pairing4good/tdd-react-amplify-gen2-tutorial/actions/workflows/cypress.yml/badge.svg?query=branch%3A002-step+)
+
 ## NoteForm Test
 
 Now that we have a high-level Cypress test in place, let's move down the testing pyramid into a component test. This test will use the React Testing Library's [render](https://testing-library.com/docs/react-testing-library/cheatsheet/) function to render the `NoteForm` component and assert its contents.
