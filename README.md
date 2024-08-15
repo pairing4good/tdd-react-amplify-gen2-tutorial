@@ -297,4 +297,4 @@ export default App;
 
 Congratulations, you've successfully made an internal structural change "without changing its external behavior" (Refactoring).
 
-[<h2><kbd> Next Step </kbd></h2>](https://github.com/pairing4good/tdd-react-amplify-gen2-tutorial/tree/002-step)
+[<kbd> Next Step </kbd>](https://github.com/pairing4good/tdd-react-amplify-gen2-tutorial/tree/002-step)
