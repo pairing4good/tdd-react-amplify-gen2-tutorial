@@ -125,13 +125,11 @@ npm run audit
 - Add `--passWithNoTests` to the end of the test script.  This [flag](https://jestjs.io/docs/cli#--passwithnotests) is needed to avoid failing if there are no unit tests.
 
 ```json
-...
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --passWithNoTests",
     "test:coverage": "npm run test -- --coverage --watchAll=false",
-...
 ```
 
 - Rename `cypress/e2e/app.cy.js` to `cypress/e2e/note.cy.js`
