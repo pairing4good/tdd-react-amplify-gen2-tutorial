@@ -1,4 +1,4 @@
-# TDD AWS Amplify React App
+# TDD AWS Amplify React App - Step 1
 
 ![Security Checks](https://github.com/pairing4good/tdd-react-amplify-gen2-tutorial/actions/workflows/codeql-analysis.yml/badge.svg)
 ![React Tests](https://github.com/pairing4good/tdd-react-amplify-gen2-tutorial/actions/workflows/node.js.yml/badge.svg)
