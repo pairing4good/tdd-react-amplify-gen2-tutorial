@@ -106,7 +106,20 @@ Add this story to your [Kanban board](https://en.wikipedia.org/wiki/Kanban).
 
 The user story and acceptance criteria above describe a desired customer outcome. The user acceptance test will link this narrative with a high level how. For this tutorial our first application will be a [web application](https://en.wikipedia.org/wiki/Web_application) built with [React](https://reactjs.org). The testing framework use to test this will be [Cypress](https://www.cypress.io)
 
-Since we are starting at the top of the [testing pyramid](https://martinfowler.com/bliki/TestPyramid.html) and working our way down let's delete the `src/App.test.js` test and we will add relevant tests later in the tutorial.
+- Since we are starting at the top of the [testing pyramid](https://martinfowler.com/bliki/TestPyramid.html) and working our way down let's delete the `src/App.test.js` test and we will add relevant tests later in the tutorial.
+- Open the `.husky/pre-commit` file
+- Comment out `npm run test:coverage`. [Husky](https://typicode.github.io/husky) verifies the code before it’s committed to [git](https://git-scm.com/). The `.husky/pre-commit` file is run before a `git commit` is completed. This file configures and runs coding style, test coverage, and security check verifications prior to committing code to git.  Since we are removing the unit tests we need to temporarily remove the test coverage check so it won't fail and block your commits.
+
+```
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npm run lint-staged
+# npm run test:coverage
+npm run lint
+npm run secretlint
+npm run audit
+```
 
 - Rename `cypress/e2e/app.cy.js` to `cypress/e2e/note.cy.js`
 - Open the `cypress/e2e/note.cy.js` file
